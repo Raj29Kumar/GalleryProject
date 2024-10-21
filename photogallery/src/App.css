@@ -1,0 +1,31 @@
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo-item {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.photo-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-item button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 20px;
+}
