@@ -1,1 +1,1 @@
-# GalleryPtoject
+# GalleryProject
