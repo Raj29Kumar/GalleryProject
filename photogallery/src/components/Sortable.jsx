@@ -28,7 +28,8 @@ export const Sortable = (props) => {
       style={style}
       {...attributes}
       {...listeners}
-      className={props.fadeOut ? "fade-out" : "fade-in"} 
+      className={props.fadeOut ? "fade-out" : "fade-in"}
+      style={{backgroundColor: 'red', marginTop: '5%'}} 
     >
       <DragItem src={props.url} alt={props.url} isDragging={isDragging} />
 
